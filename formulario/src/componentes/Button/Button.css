@@ -1,0 +1,18 @@
+/* Button css */
+
+button {
+    height: 53px;
+    border-radius: 8px;
+    border: 0;
+    width: 100%;
+    color: white;
+    background-color: var(--deep-violet);
+    font-size: 18px;
+	font-family: 'Space Grotesk';
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: var(--very-dark-violet-hover);
+    cursor: pointer;
+}

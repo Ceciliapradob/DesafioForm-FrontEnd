@@ -1,0 +1,150 @@
+
+:root {
+    --very-dark-violet: hsl(278, 68%, 11%);
+    --very-dark-violet-hover: hsl(278, 54%, 27%);
+    --purplish-grey: #8F8694;
+    --light-grey: #DFDEE0;
+    --deep-violet: #21092F;
+    --red: hsl(0, 100%, 66%)
+}
+
+body {
+    color: var(--deep-violet);
+	font-family: 'Space Grotesk';
+}
+
+main {
+    width: 100%;
+}
+
+header {
+    background: no-repeat top/100% 85% url('../../assets/bg-main-mobile.png');
+}
+
+form {
+    margin: 50px 24px 0 24px;
+}
+
+form > div {
+    margin-top: 20px;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Date & cvc container */
+
+.inputs-subcontainer {
+    display: flex;
+    flex-grow: 1;
+}
+
+.date-inputs input {
+    width: 72px;
+}
+
+.inputs-subcontainer div:last-child {
+    flex: 1;
+}
+
+.date-inputs input:first-child {
+    margin-right: 8px;
+}
+
+.date-fields {
+    padding-right: 11px;
+}
+
+/*  */
+
+form button {
+    margin-top: 22px;
+}
+
+/* Confirmation */
+
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    padding: 0 24px 0 24px;
+}
+
+.confirmation-container h1 {
+    font-size: 28px;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 3.42px;
+    margin-top: 35px;
+}
+
+.confirmation-container p {
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--purplish-grey);
+    margin-top: 16px;
+}
+
+.confirmation-container button {
+    margin-top: 48px;
+}
+
+/*  */
+
+@media screen and (min-width: 1150px) {
+
+    #root {
+        display: flex;
+        align-items: center;
+    }
+
+    header {
+        background: no-repeat left/67% 100% url('../../assets/bg-main-desktop.png');
+        min-height: 100vh;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    main {
+        width: auto;
+        flex: 1;
+        margin-bottom: 50px;
+
+    }
+
+    form {
+        width: 381px;
+        margin-left: 112px;
+    }
+
+    form > div {
+        margin-top: 26px;
+    }
+
+    .date-fields {
+        padding-right: 20px;
+    }
+
+    .date-inputs input:first-child {
+        margin-right: 10px;
+    }
+
+    form button {
+        margin-top: 32px;
+    }
+
+    .date-inputs input {
+        width: 80px;
+    }
+
+    .confirmation-container {
+        width: 381px;
+        padding: 0 0 0 112px;
+    }
+}

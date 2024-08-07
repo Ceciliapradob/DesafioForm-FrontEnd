@@ -7,7 +7,7 @@ Bienvenido a este proyecto de formulario creado con React y Vite. Este README te
 
 El proyecto está desplegado en Vercel para que puedas verlo en acción. Puedes acceder a la aplicación en la siguiente URL:
 
-[Visita el Formulario en Vercel]([https://tu-url-en-vercel.vercel.app](https://desafio-form-front-end.vercel.app/))
+[Visita el Formulario en Vercel] [https://desafio-form-front-end.vercel.app/]
 
 ## 🛠️ Instalación
 

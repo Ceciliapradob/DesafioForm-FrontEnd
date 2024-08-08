@@ -13,9 +13,9 @@ El proyecto está desplegado en Vercel para que puedas verlo en acción. Puedes 
 
 Para comenzar a trabajar con este proyecto en tu máquina local, instala las dependencias, sigue estos pasos:
 
-1.cd formulario
-2.npm install 
-3.npm run dev
+## 1-cd formulario
+## 2-npm install 
+## 3-npm run dev
 
 1. **Clona el Repositorio**
 
